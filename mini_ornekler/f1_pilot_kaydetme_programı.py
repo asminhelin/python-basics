@@ -10,4 +10,4 @@ print("Bilgiler Kaydediliyor...")
 
 print("Pilot Adı: {}\nPilot Soyadı: {}\nPilotun Takımı: {}\n".format(bilgiler[0],bilgiler[1],bilgiler[2]))
 
-print("Bilgiler Kaydedildi. ")
+print("Bilgiler Kaydedildi.")
