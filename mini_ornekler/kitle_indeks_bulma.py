@@ -1,4 +1,4 @@
-print("Vücut Kitle İndeksi Hesaplama")
+print("Vücut Kitle İndeksi Hesaplama\n")
 
 boy=float(input("Boy:"))
 kilo=float(input("Kilo:"))
