@@ -1,7 +1,7 @@
 a=input("a:")
 b=input("b:")
 
-print("\nDeğiştirilmeden önceki değelerler:\na:{} b:{}".format(a,b))
+print("\nDeğiştirilmeden Önceki Değelerler:\na:{} b:{}".format(a,b))
 
 a,b=b,a
-print("\nDeğiştirildikten sonraki değelerler:\na:{} b:{}".format(a,b))
+print("\nDeğiştirildikten Sonraki Değelerler:\na:{} b:{}".format(a,b))
