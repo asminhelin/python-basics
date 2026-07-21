@@ -3,14 +3,14 @@
 if (şekil=="Dörtgen"):
 
     print("Lütfen kenarları sırasıyla giriniz:")
-    f=int(input("1.kenar:"))
-    g=int(input("2.kenar:"))
-    h=int(input("3.kenar:"))
-    i=int(input("4.kenar:"))
+    a=int(input("1.kenar:"))
+    b=int(input("2.kenar:"))
+    c=int(input("3.kenar:"))
+    d=int(input("4.kenar:"))
 
-    if (f==g==h==i):
+    if (a==b==c==d):
         print("Dörtgen Tipi: Kare")
-    elif (f==h and g==i):
+    elif (a==c and b==d):
         print("Dörtgen Tipi: Dikdörtgen")
     else:
         print("Dörtgen Tipi: Dörtgen")
@@ -18,14 +18,14 @@ if (şekil=="Dörtgen"):
 elif (şekil=="Üçgen"):
     
     print("Lütfen kenarları sırasıyla giriniz:")
-    f=int(input("1.kenar:"))
-    g=int(input("2.kenar:"))
-    h=int(input("3.kenar:"))
+    a=int(input("1.kenar:"))
+    b=int(input("2.kenar:"))
+    c=int(input("3.kenar:"))
 
-    if (abs(f+g)>h and abs(f+h)>g and abs(g+h)>f):
-        if (f==g and f==h):
+    if (abs(a+b)>c and abs(a+c)>b and abs(b+c)>a):
+        if (a==b and a==c):
             print("Üçgen Tipi: Eşkenar Üçgen")
-        elif ((f==g and f!=h) or (f==h and f!=g) or (g==h and g!=f)):
+        elif ((a==b and a!=c) or (a==c and a!=b) or (b==c and b!=a)):
             print("Üçgen Tipi: İkizkenar Üçgen")
         else:
             print("Üçgen Tipi: Çeşitkenar Üçgen")
@@ -33,4 +33,3 @@ elif (şekil=="Üçgen"):
         print("Üçgen belirtmiyor...")
 else:
     print("Geçersiz Şekil...")
-    
