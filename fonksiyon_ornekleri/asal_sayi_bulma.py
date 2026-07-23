@@ -12,7 +12,7 @@ def asal_mi(sayı):
 while True:
     sayı=input("Sayı:")
     
-    if(sayı=="q"):
+    if(sayı.lower()=="q"):
         break
     else:
         sayı=int(sayı)
