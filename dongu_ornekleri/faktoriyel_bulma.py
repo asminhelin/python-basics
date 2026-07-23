@@ -1,13 +1,13 @@
-print("""**************************
+print("""*************************
 Faktöriyel Bulma Programı
       
 Çıkmak için 'Q'ya basın.
-**************************
+*************************
 """)
 
 while True:
     sayı=input("Sayı:")
-    if(sayı=="q"):
+    if(sayı.lower()=="q"):
         print("Program sonlandırılıyor.")
         break
     else:
