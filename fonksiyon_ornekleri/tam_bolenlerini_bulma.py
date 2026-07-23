@@ -7,7 +7,7 @@ def tam_bolenler(sayı):
 
 while True:
     sayı=input("Sayı:")
-    if(sayı=="q"):
+    if(sayı.lower()=="q"):
         print("Program sonlandırılıyor.")
         break
     else:
